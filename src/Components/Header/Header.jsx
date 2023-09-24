@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div>
-            <div className="flex justify-between items-center py-5 max-w-7xl mx-auto">
+        <div className="">
+            <div className="flex justify-between items-center py-10 max-w-7xl mx-auto ">
                 <div>
                     <img className="w-3/4" src="https://i.ibb.co/PjCKwNr/Logo.png" alt="logo" />
                 </div>
