@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/kG2dph5/Health.jpg",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#0052FF",
+        "text_button_bg_color": "#0052FF",
+        "description": "Your donations can help fund medical clinics, hospitals, and mobile healthcare units that offer free or affordable medical consultations, treatments, and surgeries to those who cannot afford them. Support initiatives that provide nutritious meals, especially to children and vulnerable populations, to combat malnutrition and promote healthier living.",
+        "price": "199"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/RT8qV6w/Education.jpg",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#FF444A",
+        "text_button_bg_color": "#1E90FF",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "49"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/ftCGdkX/Clothing.jpg",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "#79C23F",
+        "text_button_bg_color": "#79C23F",
+        "description": "The Clothing category focuses on providing essential clothing items and warmth to individuals and families facing clothing insecurity. It aims to ensure that everyone has access to clean, appropriate, and weather-appropriate clothing, promoting dignity and comfort.Organize or participate in clothing drives to collect gently used clothing items, which can be redistributed to those in need.Donate clothing specifically designed for infants, children, and teenagers, ensuring that young people have well-fitting and age-appropriate attire.",
+        "price": "79"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/qM5RkP3/Food.jpg",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "#F87147",
+        "text_button_bg_color": "#F87147",
+        "description": "Your donations can support food banks, soup kitchens, and community pantries that distribute essential food items to those in need, helping them put nutritious meals on their tables.Support initiatives that offer education on proper nutrition, meal planning, and cooking skills to empower individuals and families to make healthier food choices on a budget.",
+        "price": "29"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/RT8qV6w/Education.jpg",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#FF444A",
+        "text_button_bg_color": "#1E90FF",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "69"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/ftCGdkX/Clothing.jpg",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "#79C23F",
+        "text_button_bg_color": "#79C23F",
+        "description": "The Clothing category focuses on providing essential clothing items and warmth to individuals and families facing clothing insecurity. It aims to ensure that everyone has access to clean, appropriate, and weather-appropriate clothing, promoting dignity and comfort.Organize or participate in clothing drives to collect gently used clothing items, which can be redistributed to those in need.Donate clothing specifically designed for infants, children, and teenagers, ensuring that young people have well-fitting and age-appropriate attire.",
+        "price": "39"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/kG2dph5/Health.jpg",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#0052FF",
+        "text_button_bg_color": "#0052FF",
+        "description": "Your donations can help fund medical clinics, hospitals, and mobile healthcare units that offer free or affordable medical consultations, treatments, and surgeries to those who cannot afford them. Support initiatives that provide nutritious meals, especially to children and vulnerable populations, to combat malnutrition and promote healthier living.",
+        "price": "299"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/qM5RkP3/Food.jpg",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "#F87147",
+        "text_button_bg_color": "#F87147",
+        "description": "Your donations can support food banks, soup kitchens, and community pantries that distribute essential food items to those in need, helping them put nutritious meals on their tables.Support initiatives that offer education on proper nutrition, meal planning, and cooking skills to empower individuals and families to make healthier food choices on a budget.",
+        "price": "59"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/RT8qV6w/Education.jpg",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#FF444A",
+        "text_button_bg_color": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "89"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/ftCGdkX/Clothing.jpg",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "#79C23F",
+        "text_button_bg_color": "#79C23F",
+        "description": "The Clothing category focuses on providing essential clothing items and warmth to individuals and families facing clothing insecurity. It aims to ensure that everyone has access to clean, appropriate, and weather-appropriate clothing, promoting dignity and comfort.Organize or participate in clothing drives to collect gently used clothing items, which can be redistributed to those in need.Donate clothing specifically designed for infants, children, and teenagers, ensuring that young people have well-fitting and age-appropriate attire.",
+        "price": "24"
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/kG2dph5/Health.jpg",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#0052FF",
+        "text_button_bg_color": "#1E90FF",
+        "description": "Your donations can help fund medical clinics, hospitals, and mobile healthcare units that offer free or affordable medical consultations, treatments, and surgeries to those who cannot afford them. Support initiatives that provide nutritious meals, especially to children and vulnerable populations, to combat malnutrition and promote healthier living.",
+        "price": "79"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/RT8qV6w/Education.jpg",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#FF444A",
+        "text_button_bg_color": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "34"
+    }
+]
