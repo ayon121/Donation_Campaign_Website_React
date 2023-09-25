@@ -3,20 +3,36 @@
 
 import { useLoaderData, useParams } from "react-router-dom";
 import Header from "../Header/Header";
-import { SaveDonation } from "../Utility/LocalStorage";
+// import { SaveDonation } from "../Utility/LocalStorage";
 
 const DonationDetails = () => {
     const Donations = useLoaderData()
     const { id } = useParams()
     const idInt = parseInt(id)
     const currentDonation = Donations.find(donation => donation.id === idInt)
-    console.log(currentDonation)
+    
 
     const { title, description, picture, price, category_bg_color } = currentDonation
 
     const handleDontedDonation = () =>{
-        SaveDonation(idInt)
+        const addedDonatedDonation = [];
+        const DonatedItems = JSON.parse(localStorage.getItem("donations"));
 
+        // if there is no data
+        if (!DonatedItems) {
+            addedDonatedDonation.push(currentDonation)
+            localStorage.setItem("donations", JSON.stringify(addedDonatedDonation));
+        }
+        else {
+            const isExits = DonatedItems.find((Donation) => Donation.id == id);
+            if(!isExits){
+                addedDonatedDonation.push(...DonatedItems , currentDonation)
+                localStorage.setItem("donations" , JSON.stringify(addedDonatedDonation))
+            }
+            else {
+                console.log('error')
+            }
+        }
     }
     return (
         <div>
@@ -32,7 +48,6 @@ const DonationDetails = () => {
                 </div>
                 <h1 className=" text-2xl md:text-4xl font-bold mb-5">{title}</h1>
                 <p className="mb-14">{description}</p>
-
 
             </div>
 

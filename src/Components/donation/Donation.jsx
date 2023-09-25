@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Donation = ({ donation }) => {
-    console.log(donation)
+    
     const {id, picture, title, category, category_bg_color, card_bg_color, text_button_bg_color } = donation
 
 
