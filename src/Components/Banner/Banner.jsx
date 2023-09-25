@@ -13,11 +13,11 @@ const Banner = () => {
                     <div className="hero-overlay bg-white bg-opacity-70"><Header></Header></div>
                      
                     
-                    <div className="hero-content text-center text-neutral-content">
+                    <div className="hero-content text-center text-neutral-content pt-28">
                     
                         <div className="">
                         <h1 className="mb-5 text-5xl font-bold text-black">I Grow By Helping People In Need</h1><br />
-                        <input type="text" placeholder="Type here" className="input rounded-xl w-full max-w-lg mr-2" />
+                        <input type="text" placeholder="Type here" className="input rounded-xl w-full max-w-md mr-2" />
                         <button className="btn bg-[#FF444A] text-white hover:text-black">Search</button>
                         </div>
                     </div>
