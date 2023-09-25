@@ -3,6 +3,7 @@
 
 import { useLoaderData, useParams } from "react-router-dom";
 import Header from "../Header/Header";
+import { SaveDonation } from "../Utility/LocalStorage";
 
 const DonationDetails = () => {
     const Donations = useLoaderData()
@@ -12,6 +13,11 @@ const DonationDetails = () => {
     console.log(currentDonation)
 
     const { title, description, picture, price, category_bg_color } = currentDonation
+
+    const handleDontedDonation = () =>{
+        SaveDonation(idInt)
+
+    }
     return (
         <div>
             <Header></Header>
@@ -19,7 +25,7 @@ const DonationDetails = () => {
                 <div className="mb-10">
                     <div className="hero min-h-screen flex items-end rounded-2xl" style={{ backgroundImage: `url(${picture})` }}>
                         <div className="hero-overlay h-1/4 bg-opacity-60 rounded-b-2xl">
-                             <button className="btn btn-primary my-10 mx-7">Donate</button>
+                             <button style={{background : category_bg_color}} className="btn my-10 mx-7 border-white text-white" onClick={handleDontedDonation}>Donate ${price}</button>
                         </div>
                     </div>
 
