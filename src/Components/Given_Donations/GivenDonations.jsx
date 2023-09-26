@@ -21,7 +21,7 @@ const GivenDonations = () => {
     return (
         <div>
             <Header></Header>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-28 mb-7">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-28 mb-7 px-5">
                 {
                     DonatedItems.slice(0, datalength).map(DonatedItem => <GivenDonationCard key={DonatedItem.id} DonatedItem={DonatedItem}></GivenDonationCard>)
 

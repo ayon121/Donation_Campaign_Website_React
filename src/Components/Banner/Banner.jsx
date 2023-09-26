@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className="hero-overlay bg-white bg-opacity-70"><Header></Header></div>
                      
                     
-                    <div className="hero-content text-center text-neutral-content pt-28">
+                    <div className="hero-content text-center text-neutral-content pt-40 md:pt-28">
                     
                         <div className="">
                         <h1 className="mb-5 text-5xl font-bold text-black">I Grow By Helping People In Need</h1><br />
