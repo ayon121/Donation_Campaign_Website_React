@@ -10,6 +10,7 @@ import Root from './Components/Root/Root';
 import Home from './Components/Home/Home';
 import DonationDetails from './Components/Donation_Details/DonationDetails';
 import GivenDonations from './Components/Given_Donations/GivenDonations';
+import Statistics from './Components/Statistics/Statistics';
 
 
 const router = createBrowserRouter([
@@ -36,7 +37,8 @@ const router = createBrowserRouter([
       },
       {
         path : '/statistics',
-        element : <div>Statistics</div>
+        element : <Statistics></Statistics>,
+        loader : () => fetch('../public/data.json')
       }
     ]
   },
