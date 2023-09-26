@@ -1,10 +1,15 @@
-// import React from 'react';
-// import PropTypes from 'prop-types';
+
+import PropTypes from 'prop-types';
 
 import Header from "../Header/Header";
 
 
-const Banner = () => {
+const Banner = ({ setQuery }) => {
+    
+
+    
+    
+
     return (
            <div>
                
@@ -17,8 +22,8 @@ const Banner = () => {
                     
                         <div className="">
                         <h1 className="mb-5 text-5xl font-bold text-black">I Grow By Helping People In Need</h1><br />
-                        <input type="text" placeholder="Type here" className="input rounded-xl w-full max-w-md mr-2" />
-                        <button className="btn bg-[#FF444A] text-white hover:text-black">Search</button>
+                        <input onChange={(e)=> setQuery(e.target.value)} type="text" placeholder="Type here" className="input rounded-xl w-full max-w-md mr-2 text-black " />
+                        <button className="btn bg-[#FF444A] text-white hover:text-black" >Search</button>
                         </div>
                     </div>
                 </div>
@@ -28,7 +33,7 @@ const Banner = () => {
 };
 
 Banner.propTypes = {
-    
+    setQuery : PropTypes.func
 };
 
 export default Banner;

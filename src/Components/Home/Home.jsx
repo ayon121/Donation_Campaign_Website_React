@@ -3,16 +3,20 @@
 import { useLoaderData } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import Donation from '../donation/Donation';
+import { useState } from 'react';
 
 const Home = () => {
+    const [query ,setQuery] = useState("")
     const donations = useLoaderData()
+    // console.log(donations.filter(data => data.title.toLowerCase().includes(query)) )
+    
     
     return (
         <div>
-            <Banner></Banner>
+            <Banner setQuery={setQuery}></Banner>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mt-10 mb-16 px-4'>
                 {
-                    donations.map(donation => <Donation key={donation.id} donation={donation}></Donation>)
+                    donations.filter(data => data.title.toLowerCase().includes(query)).map(donation => <Donation key={donation.id} donation={donation}></Donation>)
                 }
             </div>
         </div>
