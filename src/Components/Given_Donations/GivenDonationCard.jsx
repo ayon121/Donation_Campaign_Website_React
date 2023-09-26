@@ -2,7 +2,6 @@
 import PropTypes from 'prop-types';
 
 const GivenDonationCard = ({ DonatedItem }) => {
-    console.log(DonatedItem)
     const { picture, category, card_bg_color, text_button_bg_color, category_bg_color, title, price } = DonatedItem
     return (
         <div style={{ background: card_bg_color, color: category_bg_color }} className="card card-side bg-base-100 shadow-xl">
