@@ -3,6 +3,8 @@
 
 import { useLoaderData, useParams } from "react-router-dom";
 import Header from "../Header/Header";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // import { SaveDonation } from "../Utility/LocalStorage";
 
 const DonationDetails = () => {
@@ -22,15 +24,17 @@ const DonationDetails = () => {
         if (!DonatedItems) {
             addedDonatedDonation.push(currentDonation)
             localStorage.setItem("donations", JSON.stringify(addedDonatedDonation));
+            toast("You have successfully donated");
         }
         else {
             const isExits = DonatedItems.find((Donation) => Donation.id == id);
             if(!isExits){
                 addedDonatedDonation.push(...DonatedItems , currentDonation)
                 localStorage.setItem("donations" , JSON.stringify(addedDonatedDonation))
+                toast("You have successfully donated");
             }
             else {
-                console.log('error')
+                toast("You already donated it");
             }
         }
     }
@@ -50,7 +54,7 @@ const DonationDetails = () => {
                 <p className="mb-14">{description}</p>
 
             </div>
-
+            <ToastContainer />
         </div>
     );
 };

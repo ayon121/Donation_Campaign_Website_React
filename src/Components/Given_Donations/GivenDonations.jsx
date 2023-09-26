@@ -21,17 +21,17 @@ const GivenDonations = () => {
     return (
         <div>
             <Header></Header>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-28">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-28 mb-7">
                 {
                     DonatedItems.slice(0, datalength).map(DonatedItem => <GivenDonationCard key={DonatedItem.id} DonatedItem={DonatedItem}></GivenDonationCard>)
 
                 }
             </div>
-            <div className={(datalength === DonatedItems.length || datalength < DonatedItems) && 'hidden'}>
-                <div className="flex justify-center">
+            {DonatedItems.length > 4 && <div className={(datalength === DonatedItems.length ) && 'hidden'}>
+                <div className="flex justify-center mb-9">
                     <button onClick={() => setdatalength(DonatedItems.length)} className="btn mt-6 px-4 py-3 border-black bg-base-200">Show All</button>
                 </div>
-            </div>
+            </div>}
         </div>
     );
 };
