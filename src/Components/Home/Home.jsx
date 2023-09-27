@@ -8,6 +8,11 @@ import { useState } from 'react';
 const Home = () => {
     const [query ,setQuery] = useState("")
     const donations = useLoaderData()
+
+    
+
+    // console.log(mydonationarray)
+    // console.log(typeof(mydonationarray))
     // console.log(donations.filter(data => data.title.toLowerCase().includes(query)) )
     
     

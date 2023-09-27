@@ -2,8 +2,8 @@
 import { useLoaderData } from 'react-router-dom';
 
 import Header from '../Header/Header';
-import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+
+import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 
 const Statistics = () => {
@@ -35,7 +35,7 @@ const Statistics = () => {
 
     const COLORS = ["#FF444A", "#82ca9d"];
     const RADIAN = Math.PI / 180;
-    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
         const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
         const x = cx + radius * Math.cos(-midAngle * RADIAN);
         const y = cy + radius * Math.sin(-midAngle * RADIAN);
